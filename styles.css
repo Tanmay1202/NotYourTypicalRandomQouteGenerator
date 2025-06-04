@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #4D6EFF;
+    font-family: 'Poppins', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+    height: 300px;
+    padding: 20px 30px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-container .heading{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.main-container .quote{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.main-container .quoter{
+    text-align: right;
+    font-style: italic;
+    border-bottom: 1px rgb(28, 27, 27) solid;
+    padding-bottom: 15px;
+}
+
+.main-container .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.main-container .footer .icons{
+    display: flex;
+    gap: 20px;
+    size: 0.5rem;
+}
+
+.main-container .footer .icons .icon {
+    background-color: whitesmoke;
+    border: 1px #4D6EFF solid;
+    padding: 10px;
+    border-radius: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.main-container .footer .icons .icon:active {
+    transform: scale(0.95);
+}
+
+button{
+    width: 100px;
+    height: 35px;
+    margin-top: 10px;
+    color: whitesmoke;
+    background-color: #4D6EFF;
+    border: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
