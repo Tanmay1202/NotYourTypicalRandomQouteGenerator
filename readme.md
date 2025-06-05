@@ -1,4 +1,4 @@
-# NOT YOUR REGULAR RANDOME QUOTE GENERATOR
+# NOT YOUR REGULAR RANDOM QUOTE GENERATOR
 
 If you are a young developer who's not only trying to just learn development for the sake of it but wants to learn what's really going on behind the scenes, this repo is for you.
 
