@@ -19,4 +19,4 @@ If you are a young developer who's not only trying to just learn development for
 
 
 # TECH STACK 
-- HTML, CSS AND JS
+-- HTML, CSS AND JS
